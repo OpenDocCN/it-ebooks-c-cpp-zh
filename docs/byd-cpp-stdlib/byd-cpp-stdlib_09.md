@@ -1,7 +1,5 @@
 # Library 2\. Conversion
 
-# Library 2\. Conversion
-
 # Conversion 库如何改进你的程序？
 
 ## Conversion 库如何改进你的程序？

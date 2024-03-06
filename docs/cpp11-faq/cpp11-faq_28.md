@@ -1,7 +1,5 @@
 # atomic_operations
 
-# atomic_operations
-
 Stroustrup 尚未完成此主题，期待中
 
 对此主题感兴趣的朋友，可以参考

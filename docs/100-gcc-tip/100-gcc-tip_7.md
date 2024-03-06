@@ -1,9 +1,5 @@
 # 常见错误
 
-# 常见错误
-
-# error: cast from ... to ... loses precision
-
 # error: cast from ... to ... loses precision
 
 ## 例子
@@ -58,8 +54,6 @@ foo.cc:6:28: warning: cast from ‘const Foo*’ to ‘int’ loses precision [-
 ## 贡献者
 
 xmj
-
-# all warnings being treated as errors
 
 # all warnings being treated as errors
 

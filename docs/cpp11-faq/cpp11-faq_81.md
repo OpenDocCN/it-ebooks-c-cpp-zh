@@ -1,7 +1,5 @@
 # std::future 和 std::promise
 
-# std::future 和 std::promise
-
 并行开发挺复杂的，特别是在试图用好线程和锁的过程中。如果要用到条件变量或 std-atomics（一种无锁开发方式），那就更复杂了。C++0x 提供了 future 和 promise 来简化任务线程间的返回值操作；同时为启动任务线程提供了 packaged_task 以方便操作。其中的关键点是允许 2 个任务间使用无（显式）锁的方式进行值传递；标准库帮你高效的做好这些了。基本思路很简单：当一个任务需要向父线程（启动它的线程）返回值时，它把这个值放到 promise 中。之后，这个返回值会出现在和此 promise 关联的 future 中。于是父线程就能读到返回值。更简单点的方法，参看 async()。
 
 标准库中提供了 3 种 future：普通 future 和为复杂场合使用的 shared_future 和 atomic_future。在本主题中，只展示了普通 future，它已经完全够用了。如果我们有一个 future

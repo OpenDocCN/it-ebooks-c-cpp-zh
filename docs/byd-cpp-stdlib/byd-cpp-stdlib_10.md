@@ -1,7 +1,5 @@
 # Library 3\. Utility
 
-# Library 3\. Utility
-
 # Utility 库如何改进你的程序？
 
 ## Utility 库如何改进你的程序？

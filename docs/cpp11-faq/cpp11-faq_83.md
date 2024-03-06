@@ -1,7 +1,5 @@
 # 无序容器（unordered containers）
 
-# 无序容器（unordered containers）
-
 一个无序容器实际上就是某种形式的蛤希表。C++0x 提供四种标准的无序容器：
 
 *   unordered_map

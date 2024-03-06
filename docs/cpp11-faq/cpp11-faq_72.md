@@ -1,7 +1,5 @@
 # abandoning_a_process
 
-# abandoning_a_process
-
 Stroustrup 尚未完成此主题，期待中。
 
 参考：

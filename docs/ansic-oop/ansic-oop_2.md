@@ -1,7 +1,5 @@
 # 第一章 抽象数据类型——信息隐藏
 
-# 第一章 抽象数据类型——信息隐藏
-
 > 来源：[`blog.csdn.net/besidemyself/article/details/6376408`](http://blog.csdn.net/besidemyself/article/details/6376408)
 > 
 > 译者：[besidemyself](http://my.csdn.net/besidemyself)

@@ -1,7 +1,5 @@
 # 参考书目
 
-# 参考书目
-
 [ThinkCpp] *How To Think Like A Computer Scientist: Learning with C++*. Allen B. Downey.
 
 [GroudUp] *Programming from the Ground Up: An Introduction to Programming using Linux Assembly Language*. Jonathan Bartlett.

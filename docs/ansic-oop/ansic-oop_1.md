@@ -1,7 +1,5 @@
 # 序言
 
-# 序言
-
 > 来源：[`blog.csdn.net/besidemyself/article/details/6376405`](http://blog.csdn.net/besidemyself/article/details/6376405)
 > 
 > 译者：[besidemyself](http://my.csdn.net/besidemyself)

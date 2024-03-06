@@ -1,7 +1,5 @@
 # 资源
 
-# 资源
-
 ## 打印资源
 
 Cargill, Tom, “Exception Handling: A False Sense of Security,” in C++ Report 6, no. 9,(November-December 1994). Also available at [`www.informit.com/content/images/020163371x/supplements/Exception_Handling_Article.html`](http://www.informit.com/content/images/020163371x/supplements/Exception_Handling_Article.html).

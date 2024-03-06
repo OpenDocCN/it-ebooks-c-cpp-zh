@@ -1,7 +1,5 @@
 # unique_ptr
 
-# unique_ptr
-
 unique_ptr（定义在中）提供了一种严格的语义上的所有权
 
 *   拥有它所指向的对象

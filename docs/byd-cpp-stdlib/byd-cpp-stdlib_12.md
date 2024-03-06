@@ -1,7 +1,5 @@
 # Library 5\. Regex
 
-# Library 5\. Regex
-
 # Regex 库如何改进你的程序？
 
 ## Regex 库如何改进你的程序？

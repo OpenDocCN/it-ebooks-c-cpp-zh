@@ -1,7 +1,5 @@
 # 从哪里可以获得有关 C++11 的学术性和技术性的参考资料？
 
-# 从哪里可以获得有关 C++11 的学术性和技术性的参考资料？
-
 你可以从以下这些地方获得你想要的资料：
 
 *   Bjarne Stroustrup: [Software Development for Infrastructure.](http://www.computer.org/portal/web/computingnow/0212/whatsnew/computer-r?src=cnhome-v1) Computer, vol. 45, no. 1, pp. 47-58, Jan. 2012, doi:10.1109/MC.2011.353\. [A video interview](http://vimeo.com/35326736) about that paper and [video of a talk on a very similar topic](http://channel9.msdn.com/Events/GoingNative/GoingNative-2012/Keynote-Bjarne-Stroustrup-Cpp11-Style) (That’s a 90 minute talk incl. Q&A).

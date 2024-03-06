@@ -1,7 +1,5 @@
 # Library 1\. Smart_ptr
 
-# Library 1\. Smart_ptr
-
 *   Smart_ptr 库如何改进你的程序？
 *   何时我们需要智能指针？
 *   Smart_ptr 如何适应标准库？

@@ -1,7 +1,5 @@
 # 第三章 编程的悟性——算术表达式
 
-# 第三章 编程的悟性——算术表达式
-
 > 来源：[`blog.csdn.net/besidemyself/article/details/6423491`](http://blog.csdn.net/besidemyself/article/details/6423491)
 > 
 > 译者：[besidemyself](http://my.csdn.net/besidemyself)

@@ -1,7 +1,5 @@
 # 第十二章 使用 Qt Creator
 
-# 第十二章 使用 Qt Creator
-
 **本章重点**
 
 *   了解 Qt Creator 支持的平台和版本情况

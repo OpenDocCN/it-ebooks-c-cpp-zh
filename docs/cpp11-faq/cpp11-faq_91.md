@@ -1,3 +1,1 @@
 # smart pointers
-
-# smart pointers

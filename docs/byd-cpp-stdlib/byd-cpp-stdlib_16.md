@@ -1,7 +1,5 @@
 # Library 8\. Tuple
 
-# Library 8\. Tuple
-
 *   Tuple 库如何改进你的程序？
 *   Tuple 库如何适用于标准库？
 *   Tuple

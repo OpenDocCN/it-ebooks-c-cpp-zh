@@ -1,7 +1,5 @@
 # 第四章 继承——代码重用和改进
 
-# 第四章 继承——代码重用和改进
-
 > 来源：[`blog.csdn.net/besidemyself/article/details/6423491`](http://blog.csdn.net/besidemyself/article/details/6423491)
 > 
 > 译者：[besidemyself](http://my.csdn.net/besidemyself)

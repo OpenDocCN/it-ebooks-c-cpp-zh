@@ -1,7 +1,5 @@
 # 第一章：FLTK 编程模型
 
-# 第一章：FLTK 编程模型
-
 FLTK(Fast Light Tool Kit 发音为 fulltick) 是一种使用 C++开发的 GUI 工具包，它可以应用于 Unix,Linux,MS-Windows95/98/NT/2000 和 MacOS 操作系统平台，相对于其它的许多图形接口开发工具包（如 MFC、GTK、QT 等），它具有体积很小、速度比较快，且有着更好的移植性。FLTK(Fast Light Tool Kit 发音为 fulltick) 是一种使用 C++开发的 GUI 工具包，它可以应用于 Unix，Linux，MS-Windows95/98/NT/2000 和 MacOS 操作系统平台，相对于其它的许多图形接口开发工具包（如 MFC、GTK、QT 等），它具有体积很小、速度比较快，且有着更好的移植性。本文就 FLTK 编程的一些基本方法进行介绍。
 
 # 1.1FLTK 功能简介

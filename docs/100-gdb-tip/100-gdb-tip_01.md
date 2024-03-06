@@ -1,9 +1,5 @@
 # 信息显示
 
-# 信息显示
-
-# 显示 gdb 版本信息
-
 # 显示 gdb 版本信息
 
 ## 技巧
@@ -33,8 +29,6 @@ Type "apropos word" to search for commands related to "word".
 ## 贡献者
 
 nanxiao
-
-# 显示 gdb 版权相关信息
 
 # 显示 gdb 版权相关信息
 
@@ -109,8 +103,6 @@ nanxiao
 
 # 启动时不显示提示信息
 
-# 启动时不显示提示信息
-
 ## 例子
 
 ```cpp
@@ -181,8 +173,6 @@ Quit anyway? (y or n) n
 ## 贡献者
 
 nanxiao
-
-# 输出信息多时不会暂停输出
 
 # 输出信息多时不会暂停输出
 

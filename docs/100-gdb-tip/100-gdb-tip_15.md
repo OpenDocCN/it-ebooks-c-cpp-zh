@@ -1,9 +1,5 @@
 # 图形化界面
 
-# 图形化界面
-
-# 进入和退出图形化调试界面
-
 # 进入和退出图形化调试界面
 
 ## 例子
@@ -78,8 +74,6 @@ Temporary breakpoint 1, main () at a.c:24
 ## 贡献者
 
 nanxiao
-
-# 显示汇编代码窗口
 
 # 显示汇编代码窗口
 
@@ -185,8 +179,6 @@ Temporary breakpoint 1, main () at a.c:24
 ## 贡献者
 
 nanxiao
-
-# 显示寄存器窗口
 
 # 显示寄存器窗口
 
@@ -343,8 +335,6 @@ native process 12552 In: main                                               Line
 ## 贡献者
 
 nanxiao
-
-# 调整窗口大小
 
 # 调整窗口大小
 

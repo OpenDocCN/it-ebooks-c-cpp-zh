@@ -1,7 +1,5 @@
 # Library 10\. Lambda
 
-# Library 10\. Lambda
-
 *   Lambda 库如何改进你的程序？
 *   Lambda 如何适用于标准库？
 *   Lambda

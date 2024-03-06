@@ -1,7 +1,5 @@
 # 第五章 编程经验——符号表
 
-# 第五章 编程经验——符号表
-
 > 来源：[`github.com/oxnz/ooc/blob/master/tex/chapter0x05.tex`](https://github.com/oxnz/ooc/blob/master/tex/chapter0x05.tex)
 > 
 > 译者：[oxnz](https://github.com/oxnz)

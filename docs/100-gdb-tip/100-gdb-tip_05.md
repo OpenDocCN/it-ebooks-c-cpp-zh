@@ -1,9 +1,5 @@
 # Catchpoint
 
-# Catchpoint
-
-# 让 catchpoint 只触发一次
-
 # 让 catchpoint 只触发一次
 
 ## 例子
@@ -63,8 +59,6 @@ nanxiao
 
 # 为 fork 调用设置 catchpoint
 
-# 为 fork 调用设置 catchpoint
-
 ## 例子
 
 ```cpp
@@ -113,8 +107,6 @@ Catchpoint 1 (forked process 33499), 0x00000034e42acdbd in fork () from /lib64/l
 ## 贡献者
 
 nanxiao
-
-# 为 vfork 调用设置 catchpoint
 
 # 为 vfork 调用设置 catchpoint
 
@@ -170,8 +162,6 @@ nanxiao
 
 # 为 exec 调用设置 catchpoint
 
-# 为 exec 调用设置 catchpoint
-
 ## 例子
 
 ```cpp
@@ -209,8 +199,6 @@ Catchpoint 1 (exec'd /bin/ls), 0x00000034e3a00b00 in _start () from /lib64/ld-li
 ## 贡献者
 
 nanxiao
-
-# 为系统调用设置 catchpoint
 
 # 为系统调用设置 catchpoint
 
@@ -300,8 +288,6 @@ Catchpoint 1 (call to syscall mmap), 0x00000034e3a16f7a in mmap64 ()
 ## 贡献者
 
 nanxiao
-
-# 通过为 ptrace 调用设置 catchpoint 破解 anti-debugging 的程序
 
 # 通过为 ptrace 调用设置 catchpoint 破解 anti-debugging 的程序
 

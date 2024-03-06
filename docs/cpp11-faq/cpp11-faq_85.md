@@ -1,7 +1,5 @@
 # metaprogramming（元编程）and type traits
 
-# metaprogramming（元编程）and type traits
-
 （译注：原作者还没有完成这个小节，等原作者完成后中文版随后奉上。这里补充一点关于元编程(metaprogramming)）的基础知识，供大家参考
 
 1、何谓“元编程(Metaprogramming)”?

@@ -1,7 +1,5 @@
 # 第二章 动态链接和泛函数
 
-# 第二章 动态链接和泛函数
-
 > 来源：[`blog.csdn.net/besidemyself/article/details/6387915`](http://blog.csdn.net/besidemyself/article/details/6387915)
 > 
 > 译者：[besidemyself](http://my.csdn.net/besidemyself)

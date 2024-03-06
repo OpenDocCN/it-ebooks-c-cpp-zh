@@ -1,7 +1,5 @@
 # Library 9\. Bind
 
-# Library 9\. Bind
-
 *   Bind 库如何改进你的程序？
 *   Bind 如何适用于标准库？
 *   Bind
