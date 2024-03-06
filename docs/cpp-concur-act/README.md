@@ -1,5 +1,3 @@
-# 介紹
-
 # C++ Concurrency In Action
 
 ## *Practical Multithreading*

@@ -1,5 +1,3 @@
-# 介紹
-
 # Boost C++ 库
 
 来源：[Boost C++ 库](http://zh.highscore.de/cpp/boost/frontpage.html)

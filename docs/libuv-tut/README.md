@@ -1,7 +1,5 @@
 # libuv 中文教程
 
-# libuv 中文教程
-
 翻译自[《An Introduction to libuv》](https://github.com/nikhilm/uvbook).
 会持续关注原教程并更新中文版，本教程基于 libuv 的 v1.3.0。
 

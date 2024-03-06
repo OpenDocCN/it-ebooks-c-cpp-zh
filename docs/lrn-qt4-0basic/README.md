@@ -1,5 +1,3 @@
-# 介紹
-
 # 零基础学 qt4 编程
 
 作者：[wd007](http://www.qtcn.org/bbs/u/70707)

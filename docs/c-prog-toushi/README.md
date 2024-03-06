@@ -1,13 +1,11 @@
-# 介紹
+# C 语言编程透视
+
+v 0.2
 
 > 本书来源：[开源书籍：C 语言编程透视](http://www.tinylab.org/open-c-book/) (by [泰晓科技](http://tinylab.org))
 > 报名参与：*Star/fork* [GitHub 仓库](https://github.com/tinyclub/open-c-book) 并发送 *Pull Request*
 > 关注我们：扫描二维码 关注 [@泰晓科技](http://weibo.com/tinylaborg) 微博和微信公众号
 > 赞助我们：赞助 6.88￥, 更多原创开源书籍需要您的支持 ^o^
-
-# C 语言编程透视
-
-v 0.2
 
 本书与[《深入淺出 Hello World》](http://blog.linux.org.tw/~jserv/archives/001844.html)有着类似的心路历程，旨在以实验的方式去探究类似 `Hello World` 这样的小程序在开发与执行过程中的微妙变化，一层层揭开 C 语言程序开发过程的神秘面纱，透视背后的秘密，不断享受醍醐灌顶的美妙。
 

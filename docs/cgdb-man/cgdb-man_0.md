@@ -1,4 +1,4 @@
-# Introduction
+# CGDB 中文手册
 
 # 关于《CGDB 中文手册》
 

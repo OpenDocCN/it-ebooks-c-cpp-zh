@@ -1,16 +1,10 @@
-# 介紹
-
-# 《100 个 gcc 小技巧》
+# 《100 个 gdb 小技巧》
 
 > 作者：[hellogcc](https://github.com/hellogcc)
 > 
-> 来源：[100-gcc-tips](https://github.com/hellogcc/100-gcc-tips)
+> 来源：[100-gdb-tips](https://github.com/hellogcc/100-gdb-tips)
 
-一个关于 gcc 使用小技巧的文档。100，在这里可能只是表明很多；具体的数目取决于您的参与和贡献。
-
-## 在线阅读
-
-[开始阅读](https://github.com/hellogcc/100-gcc-tips/blob/master/src/index.md)
+一个关于 gdb 使用小技巧的文档。100，在这里可能只是表明很多；具体的数目取决于您的参与和贡献。
 
 ## 如何参与
 
@@ -50,4 +44,8 @@
 
 ## 其它资源
 
-*   [GCC 在线手册](https://gcc.gnu.org/onlinedocs/gcc)
+*   [GDB 在线手册](https://sourceware.org/gdb/onlinedocs/gdb)
+*   [GDB 命令卡片](https://github.com/hellogcc/100-gdb-tips/blob/master/refcard.pdf)
+*   [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard)
+*   [Gdbinit for OS X, iOS and others - x86, x86_64 and ARM](https://github.com/gdbinit/Gdbinit)
+*   [dotgdb：关于底层调试和反向工程的 gdb 脚本集](https://github.com/dholm/dotgdb)
