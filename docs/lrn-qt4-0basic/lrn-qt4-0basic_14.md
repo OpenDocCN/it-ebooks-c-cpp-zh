@@ -1,7 +1,5 @@
 # 附录 A qmake 使用指南
 
-# 附录 A qmake 使用指南
-
 # A.1 qmake 简介
 
 ## A.1 qmake 简介

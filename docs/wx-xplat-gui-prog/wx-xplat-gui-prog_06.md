@@ -1,10 +1,6 @@
 # 第六章处理用户输入
 
-# 第六章处理用户输入
-
 所有的 GUI 程序都要以某种方式响应用户的输入，这一章我们来介绍以下在 wxWidgets 中怎样处理来自用户的鼠标，键盘以及游戏手柄的输入.
-
-# 6.1 鼠标输入
 
 # 6.1 鼠标输入
 
@@ -143,8 +139,6 @@ void wxScrollHelper::HandleOnMouseWheel(wxMouseEvent& event)
     }
 } 
 ```
-
-# 6.2 处理键盘事件
 
 # 6.2 处理键盘事件
 
@@ -331,8 +325,6 @@ frame->SetAcceleratorTable(accel);
 
 # 6.3 处理游戏手柄事件
 
-# 6.3 处理游戏手柄事件
-
 wxJoystick 类让你可以在 windows 平台或者 linux 平台上使用一到两个游戏手柄.典型的使用方法是,你创建 wxJoystick 的一个实例,并且传递给它 wxJOYSTICK1 或者 wxJOYSTICK2 的参数,并且以全局指针保持这个实例.当你需要处理手柄事件的时候,使用 SetCapture 函数和一个窗口指针作为参数,来使的这个窗口收到游戏手柄事件,当你不需要使用手柄的时候,调用 ReleaseCapture 函数移出手柄事件.当然,你完全可以在应用程序初始化的时候调用 SetCapture 函数而在应用程序退出的时候调用 ReleaseCapture 函数,以便在整个应用程序生命周期内处理游戏手柄事件.
 
 在开始描述详细的函数和事件之前,让我们先看一下 wxWidgets 的发行版中 samples/joystick 目录中的例子.在这个例子中,用户可以使用游戏手柄上的某个按钮画线,并且在按下按钮的时候播放一个声音片断.
@@ -458,8 +450,6 @@ wxJoystick 成员函数
 GetPosition 函数和 GetButtonState 函数可以让你在手柄事件处理函数以外的地方获取手柄的状态.
 
 你的应用程序还可能需要调用 GetXMin,GetXMax 等这些类似的函数来判断一个手柄支持的范围.
-
-# 第六章小结
 
 # 第六章小结
 

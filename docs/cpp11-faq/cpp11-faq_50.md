@@ -1,7 +1,5 @@
 # Lambda 表达式
 
-# Lambda 表达式
-
 （译注:目前支持 lambda 的 gcc 编译器版本为 4.5，其它详细的编译器对于 C++11 新特性的支持请参考[`wiki.apache.org/stdcxx/C%2B%2B0xCompilerSupport）`](http://wiki.apache.org/stdcxx/C%2B%2B0xCompilerSupport）)
 
 Lambda 表达式是一种描述函数对象的机制，它的主要应用是描述某些具有简单行为的函数（译注：Lambda 表达式也可以称为匿名函数，具有复杂行为的函数可以采用命名函数对象，当然,何谓复杂，何谓简单，这取决于编程人员的个人选择）。例如：

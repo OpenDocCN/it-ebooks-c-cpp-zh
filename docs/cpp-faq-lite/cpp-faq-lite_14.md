@@ -1,7 +1,5 @@
 # [16] 自由存储（Freestore）管理
 
-# [16] 自由存储（Freestore）管理
-
 ## FAQs in section [16]:
 
 *   [16.1] `delete p` 删除指针 `p`，还是删除指针所指向的数据 `*p`?

@@ -1,7 +1,5 @@
 # array
 
-# array
-
 std::array 是一个支持随机访问且大小（size）固定的容器（译注：可以认为是一个紧缩版的 vector 吧）。它有如下特点：
 
 *   不预留多余空间，只分配必须空间（译注：size() == capacity()）。

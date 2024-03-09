@@ -1,7 +1,5 @@
 # 可变参数模板（Variadic Templates）
 
-# 可变参数模板（Variadic Templates）
-
 要解决的问题：
 
 *   怎么创建一个拥有 1 个、2 个或者更多的初始化器的类？

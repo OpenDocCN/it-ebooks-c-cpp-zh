@@ -1,7 +1,5 @@
 # 标准库中容器方面的改进
 
-# 标准库中容器方面的改进
-
 新的语言特性和近 10 年来的经验会给标准库中的容器带来啥改进呢？首先，新容器类型：array(大小固定容器)，forward_list
 
 （单向链表），unordered containers（哈希表，无序容器）。其次，新特性：initializer lists（初始化列表），rvalue

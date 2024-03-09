@@ -1,10 +1,6 @@
 # 第五章绘画和打印
 
-# 第五章绘画和打印
-
 这一章里，我们来介绍一下设备上下文，也就是通常所说的在一个窗口或者一个打印页面上绘画的概念。我们将会讨论目前拥有的设备上下文类，以及 wxWidgets 提供的和字体，颜色，线条以及填充等相关的绘画工具集。接下来我们会描述每个设备上下文的绘画函数以及 wxWidgets 支持打印的机制。在本章的最后，我们会简单讨论一下 wxGLCanvas，这个类提供了一种在你的窗口中使用 OpenGL 技术绘制三维图形的方法。
-
-# 5.1 理解设备上下文
 
 # 5.1 理解设备上下文
 
@@ -264,8 +260,6 @@ ftp://biolpc22.york.ac.uk/pub/support/gs_afm.tar.gz
 
 # 5.2 绘画工具
 
-# 5.2 绘画工具
-
 在 wxWidgets 中，绘画操作就象是一个技术非常高超的艺术家，快速的选择颜色，绘画工具，然后画场景的一小部分，然后换不同的颜色，不同的工具，再绘画场景的其它部分，周而反复的操作。因此，接下来我们来介绍一下 wxColour,wxPen, wxBrush, wxFont 和 wxPalette 这些绘画工具。还有其它的一些内容也是有帮助的，比如 wxRect，wxRegion，wxPoint 和 wxSize，我们会在第十三章，�数据结构类�中对它们进行介绍。
 
 注意这些类使用了�引用记数�的方法，使用内部指针以避免大块的内存拷贝，在大多数情况下，你可以直接以局部变量的方式定义颜色，画笔，画刷和字体对象而不用担心性能。如果你的程序确实因此而拥有性能上的问题，你才需要考虑采取一些方法来提高性能，比如将其中的一些局部变量改变成类的成员。
@@ -476,8 +470,6 @@ image.SaveFile(wxT("image.bmp"), wxBITMAP_TYPE_BMP);
 wxWidgets 定义了一个空的调色板对象 wxNullPalette.
 
 (译者注：这一小节翻译的太费劲了)
-
-# 5.3 设备上下文中的绘画函数
 
 # 5.3 设备上下文中的绘画函数
 
@@ -867,8 +859,6 @@ dc.SetLogicalFunction(wxCOPY);
 
 # 5.4 使用打印框架
 
-# 5.4 使用打印框架
-
 我们已经介绍过，可以直接使用 wxPrinterDC 来进行打印。不过，一个更灵活的方法是使用 wxWidgets 提供的打印框架来驱动打印机。要使用这个框架，最主要的任务就是要实现一个 wxPrintout 的派生类，重载其成员函数以便告诉 wxWidgets 怎样打印一页（OnPrintPage）, 总共有多少页（GetPageInfo）,进行页面设置(OnPreparePrinting)等等。而 wxWidgets 框架则负责显示打印对话框，创建打印设备上下文和调用适当的 wxPrintout 的函数。同一个 wxPrintout 类将被打印和预览功能一起使用。
 
 当要开始打印的时候，一个 wxPrintout 对象实例被传递给 wxPrinter 对象，然后将调用 Print 函数开始打印过程，并且在准备打印用户指定的那些页面前显示一个打印对话框。如下面例子中的那样。
@@ -1086,8 +1076,6 @@ void MyPrintout::DrawPageTwo(wxDC *dc)
 
 # 5.5 使用 wxGLCanvas 绘制三维图形
 
-# 5.5 使用 wxGLCanvas 绘制三维图形
-
 感谢 OpenGL 和 wxGLCanvas，让 wxWidgets 拥有了绘制三维图形的能力。如果你的平台不支持 OpenGL，你仍然可以使用它的一个开放源码的实现 Mesa。
 
 要让 wxWidgets 在 windows 平台上支持 wxGLCanvas，你需要编辑 include/wx/msw/setup.h，设置 wxUSE_GLCANVAS 为 1，然后编译的时候在命令行使用 USE_OPENGL=1，在连接的时候你也可能需要增加 opengl32.lib。而在 Unix 或者 Mac OS X 上，你只需要在配置 wxWidgets 的时候增加--with-opengl 参数来打开 OpenGL 或者 Mesa 的支持。
@@ -1136,8 +1124,6 @@ void TestGLCanvas::OnPaint(wxPaintEvent& event)
 下图演示了另外的一个 OpenGL 的例子，一个可爱的（当然，有点棱角的）企鹅，在例子程序中，你可以用鼠标来旋转它。完整的例子可以在光盘的 samples/opengl/penguin 目录中找到。
 
 ![](img/mht94CD%281%29.tmp)
-
-# 第五章小节
 
 # 第五章小节
 

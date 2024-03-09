@@ -1,7 +1,5 @@
 # decltype – 推断表达式的数据类型
 
-# decltype – 推断表达式的数据类型
-
 decltype(E)是一个标识符或者表达式的推断数据类型(“declared type”)，它可以用在变量声明中作为变量的数据类型。例如：
 
 ```cpp

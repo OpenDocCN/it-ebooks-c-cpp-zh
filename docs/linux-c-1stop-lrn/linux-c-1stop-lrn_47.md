@@ -1,7 +1,5 @@
 # 索引
 
-# 索引
-
 ### 符号
 
 !号，Exclamation Mark, 布尔代数

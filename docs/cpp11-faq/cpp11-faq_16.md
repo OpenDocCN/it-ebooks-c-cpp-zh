@@ -1,7 +1,5 @@
 # 有关于 C++11 的视频吗？
 
-# 有关于 C++11 的视频吗？
-
 希望大家知道这真的是一个 FAQ，而不是一些列出的我个人喜欢的问题集；我不喜欢技术话题的视频，我发现视频容易分心，并且经常包括一些微小的口头上的技术错误。
 
 *   B. Stroustrup, H. Sutter, H-J. Boehm, A. Alexandrescu, S.T.Lavavej, Chandler Carruth, and Andrew Sutter:

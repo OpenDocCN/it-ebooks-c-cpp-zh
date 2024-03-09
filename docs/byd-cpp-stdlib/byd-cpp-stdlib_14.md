@@ -1,7 +1,5 @@
 # Library 6\. Any
 
-# Library 6\. Any
-
 # Any 库如何改进你的程序？
 
 ## Any 库如何改进你的程序？

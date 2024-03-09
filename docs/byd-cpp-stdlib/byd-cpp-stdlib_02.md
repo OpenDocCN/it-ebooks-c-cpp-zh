@@ -1,7 +1,5 @@
 # 前言
 
-# 前言
-
 亲爱的读者，
 
 欢迎来到 Beyond the C++ Standard Library: An Introduction to Boost.

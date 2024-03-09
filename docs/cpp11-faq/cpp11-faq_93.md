@@ -1,7 +1,5 @@
 # 时间工具程序
 
-# 时间工具程序
-
 在编写程序时，我们常常需要定时执行一些任务。例如，标准库 mutexes 和 locks 提供了的一些选项就需要这一定时功能：线程等待一段时间(duration)或者等到某一给定时刻(time_point)。
 
 如果你需要得到当前时刻，你可以调用 system_clock、monotonic_clock、high_resolution_clock 中任何一个时钟的 now()方法。例如：

@@ -1,7 +1,5 @@
 # Library 12\. Signals
 
-# Library 12\. Signals
-
 *   Signals 库如何改进你的程序？
 *   Signals 如何适用于标准库？
 *   Signals

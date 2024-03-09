@@ -1,7 +1,5 @@
 # Library 7\. Variant
 
-# Library 7\. Variant
-
 *   Variant 库如何改进你的程序？
 *   Variant 如果适用于标准库？
 *   Variant

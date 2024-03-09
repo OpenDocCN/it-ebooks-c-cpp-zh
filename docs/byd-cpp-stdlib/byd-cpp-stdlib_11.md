@@ -1,7 +1,5 @@
 # Library 4\. Operators
 
-# Library 4\. Operators
-
 *   Operators 库如何改进你程序？
 *   Operators
 *   用法

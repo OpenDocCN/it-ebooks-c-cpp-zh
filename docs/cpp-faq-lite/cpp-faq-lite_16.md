@@ -1,7 +1,5 @@
 # [18] const 正确性
 
-# [18] const 正确性
-
 ## FAQs in section [18]:
 
 *   [18.1] 什么是“const 正确性”？

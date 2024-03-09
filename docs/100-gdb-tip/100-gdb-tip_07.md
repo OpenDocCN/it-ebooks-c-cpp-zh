@@ -1,9 +1,5 @@
 # 多进程/线程
 
-# 多进程/线程
-
-# 调试已经运行的进程
-
 # 调试已经运行的进程
 
 ## 例子
@@ -120,8 +116,6 @@ nanxiao
 
 # 调试子进程
 
-# 调试子进程
-
 ## 例子
 
 ```cpp
@@ -200,8 +194,6 @@ hello world
 ## 贡献者
 
 nanxiao
-
-# 同时调试父进程和子进程
 
 # 同时调试父进程和子进程
 
@@ -337,8 +329,6 @@ nanxiao
 
 # 查看线程信息
 
-# 查看线程信息
-
 ## 例子
 
 ```cpp
@@ -413,8 +403,6 @@ nanxiao
 
 # 在 Solaris 上使用 maintenance 命令查看线程信息
 
-# 在 Solaris 上使用 maintenance 命令查看线程信息
-
 ## 技巧
 
 用 gdb 调试多线程程序时，如果想查看线程信息，可以使用“i threads”命令（i 是 info 命令缩写），例如:
@@ -444,8 +432,6 @@ user   thread #3, lwp 3, (asleep)    startfunc: mem_db_thread
 ## 贡献者
 
 nanxiao
-
-# 不显示线程启动和退出信息
 
 # 不显示线程启动和退出信息
 
@@ -505,8 +491,6 @@ Starting program: /data/nan/a
 ## 贡献者
 
 nanxiao
-
-# 只允许一个线程运行
 
 # 只允许一个线程运行
 
@@ -626,8 +610,6 @@ nanxiao
 
 # 使用“$_thread”变量
 
-# 使用“$_thread”变量
-
 ## 例子
 
 ```cpp
@@ -714,8 +696,6 @@ thread id=3
 ## 贡献者
 
 nanxiao
-
-# 一个 gdb 会话中同时调试多个程序
 
 # 一个 gdb 会话中同时调试多个程序
 
@@ -849,8 +829,6 @@ nanxiao
 
 # 打印程序进程空间信息
 
-# 打印程序进程空间信息
-
 ## 例子
 
 ```cpp
@@ -961,8 +939,6 @@ Added inferior 4.
 ## 贡献者
 
 nanxiao
-
-# 使用“$_exitcode”变量
 
 # 使用“$_exitcode”变量
 

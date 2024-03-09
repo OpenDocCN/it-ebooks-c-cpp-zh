@@ -1,10 +1,6 @@
 # 第十四章文件和流操作
 
-# 第十四章文件和流操作
-
 在这一章里,我们来看看 wxWidgets 提供的底层文件操作对象以及流操作.wxWidgets 的流对象不但能使得你的应用程序可以和各种标准的 C++ 库打交道,而且还提供完整的压缩,写 zip 文档以及 socket 读写等操作.我们还将描述一下 wxWidgets 提供的虚拟文件系统,它让你的应用程序可以很容易的从非常规文件中获取各种资源.
-
-# 14.1 文件类和函数
 
 # 14.1 文件类和函数
 
@@ -196,8 +192,6 @@ File Functions
 wxWidgets 同样提供了许多函数来封装标准 C 函数,比如: wxFopen, wxFputc 和 wxSscanf,这些函数没有在手册中记录,不过你应该可以在 include/wx/wxchar.h 中找到它们.
 
 另外一个有用的宏是 wxFILE_SEP_PATH,它代表了不同平台上的路径分割符,比如在 windows 平台上它代表"\",而在 Unix 平台上则代表"/".
-
-# 14.2 流操作相关类
 
 # 14.2 流操作相关类
 
@@ -487,8 +481,6 @@ wxMemoryFSHandler::RemoveFile(wxT("csquery.xpm"));
 ```
 
 wxWidgets 支持的第三种虚拟文件系统是 wxInternetFSHandler,它支持 FTP 和 HTTP 协议.
-
-# 第十四章小结
 
 # 第十四章小结
 

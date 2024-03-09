@@ -1,9 +1,5 @@
 # core dump 文件
 
-# core dump 文件
-
-# 为调试进程产生 core dump 文件
-
 # 为调试进程产生 core dump 文件
 
 # 技巧
@@ -43,8 +39,6 @@ Saved corefile core.13256
 ## 贡献者
 
 nanxiao
-
-# 加载可执行程序和 core dump 文件
 
 # 加载可执行程序和 core dump 文件
 

@@ -1,9 +1,5 @@
 # 调试
 
-# 调试
-
-# 利用 Address Sanitizer 工具检查内存访问错误
-
 # 利用 Address Sanitizer 工具检查内存访问错误
 
 ## 例子
@@ -163,8 +159,6 @@ Shadow byte legend (one shadow byte represents 8 application bytes):
 ## 贡献者
 
 nanxiao
-
-# 利用 Thread Sanitizer 工具检查数据竞争的问题
 
 # 利用 Thread Sanitizer 工具检查数据竞争的问题
 

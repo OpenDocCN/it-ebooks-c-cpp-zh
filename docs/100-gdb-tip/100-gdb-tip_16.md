@@ -1,9 +1,5 @@
 # 其它
 
-# 其它
-
-# 命令行选项的格式
-
 # 命令行选项的格式
 
 ## 技巧
@@ -25,8 +21,6 @@ $ gdb --args ./a.out a b c
 ## 贡献者
 
 xmj
-
-# 支持预处理器宏信息
 
 # 支持预处理器宏信息
 
@@ -65,8 +59,6 @@ $1 = "Joe"
 ## 贡献者
 
 xmj
-
-# 使用命令的缩写形式
 
 # 使用命令的缩写形式
 
@@ -118,8 +110,6 @@ nanxiao
 
 # 在 gdb 中执行 shell 命令和 make
 
-# 在 gdb 中执行 shell 命令和 make
-
 ## 技巧
 
 你可以不离开 gdb，直接执行 shell 命令，比如：
@@ -150,8 +140,6 @@ xmj
 
 # 在 gdb 中执行 cd 和 pwd 命令
 
-# 在 gdb 中执行 cd 和 pwd 命令
-
 ## 技巧
 
 是的，gdb 确实支持这两个命令，虽然我没有想到它们有什么特别的用处。
@@ -170,8 +158,6 @@ Working directory /home/xmj/tmp.
 ## 贡献者
 
 xmj
-
-# 设置命令提示符
 
 # 设置命令提示符
 
@@ -209,8 +195,6 @@ Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
 ## 贡献者
 
 xmj
-
-# 设置被调试程序的参数
 
 # 设置被调试程序的参数
 
@@ -257,8 +241,6 @@ xmj
 
 # 设置被调试程序的环境变量
 
-# 设置被调试程序的环境变量
-
 ## 例子
 
 ```cpp
@@ -283,8 +265,6 @@ set env LD_PRELOAD=/lib/x86_64-linux-gnu/libpthread.so.0
 ## 贡献者
 
 xmj
-
-# 得到命令的帮助信息
 
 # 得到命令的帮助信息
 
@@ -371,8 +351,6 @@ brea -- Set breakpoint at specified line or function
 ## 贡献者
 
 nanxiao
-
-# 记录执行 gdb 的过程
 
 # 记录执行 gdb 的过程
 

@@ -1,7 +1,5 @@
 # 用户定义数据标识（User-defined literals）
 
-# 用户定义数据标识（User-defined literals）
-
 C++提供了许多内建数据类型的数据标识（2.14 节变量）：
 
 ```cpp

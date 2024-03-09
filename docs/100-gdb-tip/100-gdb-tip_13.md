@@ -1,9 +1,5 @@
 # 脚本
 
-# 脚本
-
-# 配置 gdb init 文件
-
 # 配置 gdb init 文件
 
 ## 技巧
@@ -43,8 +39,6 @@ set print pretty on
 ## 贡献者
 
 xmj
-
-# 按何种方式解析脚本文件
 
 # 按何种方式解析脚本文件
 
@@ -141,8 +135,6 @@ Temporary breakpoint 1, main () at a.c:12
 ## 贡献者
 
 nanxiao
-
-# 保存历史命令
 
 # 保存历史命令
 

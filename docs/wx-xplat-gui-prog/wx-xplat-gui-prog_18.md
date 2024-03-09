@@ -1,7 +1,5 @@
 # 第十八章使用 wxSocket 编程
 
-# 第十八章使用 wxSocket 编程
-
 socket 是一个数据传输的管道.socket 并不关心它正在传输什么类型的数据,也不关心数据从和而来,或者说要到哪里去.它的任务就是把数据从 A 点传输到 B 点.每次你访问 web,收发 email,登录你的即时消息帐号等等时候,你在都使用着 socket.socket 可以被用来再任何支持 socket 的设备之间建立连接,包括连接一台电脑和一台电冰箱(只要它支持 socket).
 
 socket 编程的 API 最初是 BSD unix 系统的一部分,因为其起源的单一性,这个 API 变成了一种标准.所有现代的操作系统都会实现一个 socket 层,来提供按照 TCP 或者 UDP 协议通过网络(比如国际互联网)向外发送数据.使用 wxWidgets 提供的 wxSocket,你可以安全的从一台电脑向另外一台电脑发送任何数量的数据.本章也将涉及一些 socket 技术的基础知识,但是 socket 操作本身是非常简单明了的.
@@ -12,15 +10,11 @@ socket 编程的 API 最初是 BSD unix 系统的一部分,因为其起源的单
 
 # 18.1 Socket 类和功能概览
 
-# 18.1 Socket 类和功能概览
-
 socket 操作的核心类是 wxSocketBase,它提供了类似发送和接收数据,关闭连接,错误报告等这样的功能.创建一个监听 socket 或者连接到一个 socket 服务器,你需要分别使用 wxSocketServer 和 wxSocketClient.wxSocketEvent 用来通知应用程序 socket 上有事件发生.虚类 wxSocketBase 和它的一些子类比如 wxIPV4address 让你可以指定特定的远端地址和端口.最后, wxSocketInputStream 和 wxSocketOutputStream 等这些流对象让你以流的方式处理 socket 上的数据移动和传输.关于流操作的更多内容参见第十四章,"文件和流操作"
 
 正如我们在稍后的"Socket 标记"小节中即将讨论的那样,socket 可以以不同的方式使用.传统的使用线程的操作方式将禁止 socket 事件的产生和发送,而在线程中以阻塞的方式进行 socket 的操作.而另一方面,你也可能使用基于事件的方式以便逃避使用线程的复杂性. wxWdigets 将在需要的时候通过事件通知你需要对某个 socket 进行操作了.通过这种方式,数据的接收是放在后台的,你仅需要在有数据到来的时候处理它,它将不会阻塞你的 GUI 界面,也没有基于每个线程一个 socket 的实现的那种复杂性.
 
 本章我们通过一个完整的例子来介绍 wxSocket 的这两种使用方法以及使用到的那些 wxSocket 类的 API.虽然仅仅是一个例子,但是例子中的代码都可以作为正式的代码来使用.
-
-# 18.2 Socket 及其基本处理介绍
 
 # 18.2 Socket 及其基本处理介绍
 
@@ -299,8 +293,6 @@ Socket 事件概述
 
 # 18.3 Socket 标记
 
-# 18.3 Socket 标记
-
 Socket 的行为可能随着创建时指定的不同而有很大的差异,下表列出了 Socket 可以指定的标记:
 
 | wxSOCKET_NONE | 普通行为(行为和底层的 send 和 recv 函数一致). |
@@ -362,8 +354,6 @@ wxSOCKET_NONE, wxSOCKET_NOWAIT 和 wxSOCKET_WAITALL 是互斥的,你不可以同
 标准 socket 和 wxSocket
 
 使用 wxSOCKET_NONE | wxSOCKET_BLOCK 或 wxSOCKET_NOWAIT 的时候和直接使用 socket 系统调用的效果并没有不同,唯一的不同是你使用的是 wxWidgets 提供的 API 而不是标准 C 的 API.不过,即使这样,还是有足够的理由要使用 wxSocket,这些理由包括:wxSocket 提供了一个面向对象的接口,隐藏了很多平台相关的初始化代码,还提供了一些高级的函数比如 WriteMsg 和 ReadMsg.另外,下一节我们也将看到, wxSocket 也使我们可以用流的方式来操作 socket.
-
-# 18.4 使用 Socket 流
 
 # 18.4 使用 Socket 流
 
@@ -451,15 +441,11 @@ void* FileReceiveThread::Entry()
 
 # 18.5 替代 wxSocket
 
-# 18.5 替代 wxSocket
-
 虽然 wxSocket 提供了很多灵活性并且被很好的集成进了 wxWidgets,但是它并不是实现进程间通信的唯一方法.如果你只是想进行 FTP 或者 HTTP 的操作,你可以直接使用 wxFTP 或 wxHTTP,它们在内部使用了 wxSocket,不过这些类是不完善的,你最好还是使用 CURL,它是一个通用的库,提供了使用各种 Internet 协议传递文件的非常直观的 API,有人已经对其进行了 wxWidgets 封装,名字叫做 wxCURL.
 
 wxWidgets 也提供了一套高级的进程间通信机制,它使用类 wxServer,wxClient 和 wxConnection 以及基于微软的 DDE(动态数据交换)协议的 API.实际上,在 windows 上,这些类是用 DDE 实现的,而在其它平台上,则是用 socket 实现的.之所以要使用这些更高层的类,是因为它比直接使用 wxSocket 更方便,另外一个优点是在 windows 平台上,使用 DDE 可以和别的支持 DDE 的程序交换数据(别的程序不必要是使用 wxWidgets 制作的).它的一个缺点是在别的平台上,非 wxWidgets 编制的程序是不能识别这种协议的,不过,如果你只需要在 wxWidgets 制作的程序之间交换数据的话,它还是可以满足要求的.我们将在第二十章的"单个实例还是多个实例?"小节,演示一个简单的例子.
 
 更多信息请参考 wxWidgets 手册中的"Interprocess Commun-ication Overview"(进程间通信概述)小节以及 wxWidgets 自带的 samples/ipc 中的例子.你也可以参考 wxWidgets 自带的独立帮助显示工具中的代码,它位于 utils/helpview/src 目录内.
-
-# 第十八章小结
 
 # 第十八章小结
 

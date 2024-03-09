@@ -1,10 +1,6 @@
 # 第十章使用图像编程
 
-# 第十章使用图像编程
-
 这一章来了解一下我们可以使用图片来作些什么事情.一幅图胜过千言万语,在 wxWidgets,工具条,树形控件,notebooks,按钮,Html 窗口和特定的绘画代码中,都会用到图片.有时候它们还会在不可见的地方发挥作用,比如我们可以用它来创建双缓冲区以避免闪烁.这一章里,我们会接触到各种各样的图片类,还会谈到怎样覆盖 wxWidgets 提供的默认图片和图标.
-
-# 10.1 wxWidgets 中图片相关的类
 
 # 10.1 wxWidgets 中图片相关的类
 
@@ -48,8 +44,6 @@ wxImage 则是四个类中唯一的一个平台无关的实现,它支持 24bit �
 | wxBITMAP_TYPE_MACCURSOR | Mac 光标文件. |
 | wxBITMAP_TYPE_MACCURSOR_RESOURCE | 从可执行文件资源部分加载的 Mac 光标. |
 | wxBITMAP_TYPE_ANY | 让加载图片的代码自己确定图片的格式. |
-
-# 10.2 使用 wxBitmap 编程
 
 # 10.2 使用 wxBitmap 编程
 
@@ -292,8 +286,6 @@ if (bitmap.Ok())
 
 # 10.3 使用 wxIcon 编程
 
-# 10.3 使用 wxIcon 编程
-
 一个 wxIcon 代表一个小的位图,它总有一个透明遮罩,它的用途包括:
 
 *   设置 frame 窗口或者对话框的图标
@@ -391,8 +383,6 @@ aardvarkpro ICON aardvarkpro.ico
 应用程序图标和应用程序相关的文档类型图标是由 CFBundleIconFile 和 CFBundleTypeIconFile 属性指定的.你可以直接用 Apple 提供图标编辑器编辑 ICNS 文件,不过如果你希望所有的平台使用同样的图标,你最好现用 PNG 图片创建各种大小的图标,然后再将它粘贴到各个平台上的图标编辑器中,要确保 PNG 使用的透明遮罩颜色和各个工具使用的透明颜色相一致.
 
 而在 linux 平台上,Gnome 桌面系统和 KDE 桌面系统则各自拥有自己的图标提供体系,我们将在第二十章进行简要的描述.
-
-# 10.4 使用 wxCursor 编程
 
 # 10.4 使用 wxCursor 编程
 
@@ -495,8 +485,6 @@ void wxSplitterWindow::OnSetCursor(wxSetCursorEvent& event)
 ```
 
 在这个例子中,当鼠标指针移过分割条的时候,SashHitTest 函数返回 True,因此 Skip 函数被调用,事件表调用失败,这和没有定义这个事件表的效果是一样的,导致 wxWidgets 象往常一样显示指定给窗口的光标(wxCURSOR_WE).而如果 SashHitTest 函数返回 False,则表明光标是在子窗口上移动,这时候应该不显示我们指定的光标,因此我们不调用 Skip 函数,让事件表匹配成功,则事件表将不会在继续匹配,这将使得 wxWidgets 认为这个窗口没有被指定光标,因此.在这种情况下,即使子窗口自己没有光标(象 wxTextCtrl 这种控件,一般系统会指定一个它自己的光标,不过 wxWidgets 对这个是不感知的),也将不会使用我们指定给父窗口的光标.
-
-# 10.5 使用 wxImage 编程
 
 # 10.5 使用 wxImage 编程
 
@@ -729,8 +717,6 @@ void wxImage::ConvertToGrayScale(wxImage& image)
 
 # 10.6 图片列表和图标集
 
-# 10.6 图片列表和图标集
-
 有时候,使用一组图片是非常方便的.这时候,你可以直接在你的代码中使用 wxImageList,也可以和 wxWidgets 提供的一些控件一起使用 wxImageList,wxNotebook,wxtreeCtrl 和 wxListCtrl 都需要 wxImageList 来管理它们所需要使用的图标. 你也可使用 wxImageList 中的某个单独的图片在设备上下文上绘画.
 
 创建一个 wxImageList 需要的参数包括单个图片的宽度和高度,一个 bool 值来指定是否需要指定图片遮罩,以及这个图片列表的初始大小(主要是为了内部优化代码),然后一个一个的增加 wxBitmap 对象或者 wxIcon 对象.wxImageList 不能直接使用 wxImage 对象,你需要先将其转换为 wxBitmap 对象.wxImageList::Add 函数返回一个整数的索引用来代表这个刚增加的图片,在 Add 函数成功返回以后,你就可以释放原始图片了,wxImageList 已经在内部创建了一个这个图片的拷贝.
@@ -841,8 +827,6 @@ frame->SetIcons(iconBundle);
 
 # 10.7 自定义 wxWidgets 提供的小图片
 
-# 10.7 自定义 wxWidgets 提供的小图片
-
 wxArtProvider 这个类允许你更改 wxWidgets 默认提供的那些小图片,比如 wxWidgets HTML 帮助阅读器中或者默认的 Log 对话框中使用的图片.
 
 wxWidgets 提供了一个标准的 wxArtProvider 对象,并且体系内的一些需要使用图标和小图片的地方都调用了这个类的 wxArtProvider::GetBitmap 和 wxArtProvider::GetIcon 函数.
@@ -922,8 +906,6 @@ bool MyApp::OnInit()
     return true;
 } 
 ```
-
-# 第十章小结
 
 # 第十章小结
 

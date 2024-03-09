@@ -1,12 +1,8 @@
 # 第八章使用标准对话框
 
-# 第八章使用标准对话框
-
 本章描述了 wxWidgets 提供的标准的对话框,使用这些这些对话框,你只用很少的代码就可以用来显示一些信息或者从用户那里获取数据.熟悉这些标准的对话框将会节省你大量的时间,并且让你的程序显得更专业.wxWidgets 在任何可能的时候使用本地原生的对话框,但是有些时候,wxWidgets 也是一些自己的对话框,比如 wxTextEntryDialog,这些对话框统称为一般的对话框.在这一章中,对于那些在各个平台上外观有较大差别的对话框,也给予了单独的图片说明.
 
 我们人为的把标准对话框分成了以下四类:信息对话框,文件和目录对话框,选项和选择对话框以及输入对话框.
-
-# 8.1 信息对话框
 
 # 8.1 信息对话框
 
@@ -212,8 +208,6 @@ void MyFrame::ShowTip()
 
 # 8.2 文件和目录对话框
 
-# 8.2 文件和目录对话框
-
 如果想让用户选择文件和目录,你可以使用下面这两种对话框:wxFileDialog 和 wxDirDialog.
 
 wxFileDialog
@@ -333,8 +327,6 @@ if (dialog.ShowModal() == wxID_OK)
     wxMessageBox(path);
 } 
 ```
-
-# 8.3 选择和选项对话框
 
 # 8.3 选择和选项对话框
 
@@ -521,8 +513,6 @@ if (dialog.ShowModal() == wxID_OK)
 
 # 8.4 输入对话框
 
-# 8.4 输入对话框
-
 这一类对话框让用户自己输入信息,包括:wxNumberEntryDialog, wxTextEntryDialog, wxPasswordEntryDialog 和 wxFindReplaceDialog.
 
 wxNumberEntryDialog
@@ -700,8 +690,6 @@ void MyFrame::OnFindClose(wxFindDialogEvent& event)
 
 # 8.5 打印对话框
 
-# 8.5 打印对话框
-
 你可以使用的打印对话框包括 wxPageSetupDialog 和 wxPrintDialog 以用来打印文档. 不过,如果你使用 wxWidgets 的打印框架(包括 wxPrintout, wxPrinter 以及其它一些类)的话,你的代码中很少需要显式的调用这些对话框.更多关于打印的细节请参考第五章, "绘画和打印."
 
 wxPageSetupDialog
@@ -836,8 +824,6 @@ void MyFrame::OnPrint(wxCommandEvent& event)
 ```
 
 不过,通常你不需要自己直接调用打印对话框 .你应该使用 wxWidgets 提供的高层打印框架(参考第五章).在你调用 wxPrinter::Print 函数的时候将会自动显示打印对话框.
-
-# 第八章小结
 
 # 第八章小结
 
